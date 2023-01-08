@@ -18,7 +18,7 @@ function Navbar() {
           </Link>
         </li>
         <li className="nav-item">
-        <a className="nav-link active" href="/#">User Details
+        <a className="nav-link active" href="/Users">User Details
           <span className="visually-hidden">(current)</span>
         </a>
       </li>

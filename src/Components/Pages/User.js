@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 
 
-function User() {
+function Users() {
     const [users, setUsers] = useState([]);
-    // const [search, setSearch]= useState()
+    const [search, setSearch]= useState()
     // const [filter, setFilter] = useState([])
   
     useEffect(() => {
@@ -57,5 +57,5 @@ function User() {
       </div>
     );
   }
-  export default User;
+  export default Users
   

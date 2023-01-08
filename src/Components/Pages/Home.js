@@ -32,11 +32,12 @@ function Home() {
   return (
     <div>
       <div className="logo"> <img  src="./logo512.png " style={{width:'15vw'}} alt="" /> </div>
-      <button className="btn btn-primary mx-3 my-2" onClick={deleteUsers}>Delete Users</button>
       <button  className="btn btn-primary mx-3 my-2" onClick={fetchUsers}>Fetch Users</button>
       <Link to="/Users">
         <button className="btn btn-primary mx-3 my-2">User Details</button>
       </Link>
+      <button className="btn btn-primary mx-3 my-2" onClick={deleteUsers}>Delete Users</button>
+
     </div>
   );
 }
